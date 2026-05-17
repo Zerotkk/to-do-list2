@@ -50,7 +50,8 @@ button {
 
 .brand-mark {
   align-items: center;
-  background: #e6f4ff;
+  background: #f0f7ff;
+  border: 1px solid #bae0ff;
   border-radius: 8px;
   color: #1677ff;
   display: inline-flex;
@@ -60,20 +61,22 @@ button {
 }
 
 .brand-mark svg {
-  fill: currentColor;
+  fill: none;
   height: 24px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
   width: 24px;
 }
 
-.brand strong,
-.brand span {
+.brand strong {
   display: block;
 }
 
-.brand span {
-  color: #5f7290;
-  font-size: 13px;
-  margin-top: 2px;
+.brand strong {
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 .project-form {

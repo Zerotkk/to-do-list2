@@ -336,12 +336,16 @@ function ProjectSidebar({
       <div className="brand">
         <span className="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" role="img">
-            <path d="M4 5.75A1.75 1.75 0 0 1 5.75 4h12.5A1.75 1.75 0 0 1 20 5.75v12.5A1.75 1.75 0 0 1 18.25 20H5.75A1.75 1.75 0 0 1 4 18.25V5.75Zm2 .25v12h3.5V6H6Zm5.25 0v12h2.5V6h-2.5Zm4.25 0v12H18V6h-2.5Z" />
+            <path d="M5 6.5h14" />
+            <path d="M7 10.5h3.5" />
+            <path d="M7 14.5h5.5" />
+            <path d="M15 10.5h2" />
+            <path d="M15 14.5h2" />
+            <rect x="4" y="4" width="16" height="16" rx="3" />
           </svg>
         </span>
         <div>
           <strong>项目看板</strong>
-          <span>多项目 To Do</span>
         </div>
       </div>
 
