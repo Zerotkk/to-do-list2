@@ -7,7 +7,7 @@ export const PROJECT_COLORS = ['#1677ff', '#4096ff', '#69b1ff', '#0958d9', '#003
 export const initialProjects = [
   {
     id: 'project-web',
-    name: '官网改版',
+    name: '官网版本迭代',
     status: '执行中',
     color: '#1677ff',
   },

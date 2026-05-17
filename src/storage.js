@@ -5,6 +5,7 @@ const STORAGE_KEY = 'multi-project-todo-state'
 function normalizeProjects(projects) {
   return projects.map((project, index) => ({
     ...project,
+    name: project.id === 'project-web' && project.name === '官网改版' ? '官网版本迭代' : project.name,
     color: PROJECT_COLORS[index % PROJECT_COLORS.length],
   }))
 }
